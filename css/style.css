@@ -73,3 +73,20 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.yt-nav-inferior {
+  background-color: beige;
+  height: 56px;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 15px;
+}
+
+.nav-inferior-btn {
+  padding: 0 0.75rem /*12px*/;
+  height: 2rem;
+  font-size: 14px;
+  min-width: max-content;
+}
