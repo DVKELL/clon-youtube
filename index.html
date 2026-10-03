@@ -23,7 +23,7 @@
         <!-- ========================= NAV SUPERIOR ============================ -->
         <div class="yt-nav-superior">
           <div class="nav-ctas">
-            <span class="material-symbols-outlined">menu</span>
+            <span class="material-symbols-outlined pointer">menu</span>
             <a href="https://www.youtube.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@
           <div class="nav-searchs">
             <div class="nav-searchs-1">
               <input class="nav-barsearch" type="text" placeholder="Buscar" />
-              <button>
+              <button class="nav-search-btn">
                 <span class="material-symbols-outlined">search</span>
               </button>
             </div>
@@ -77,12 +77,17 @@
           </div>
 
           <div class="nav-icons">
-            <span class="material-symbols-outlined nav-icon-icon">search</span>
-            <span class="material-symbols-outlined nav-icon-icon">mic</span>
+            <span class="material-symbols-outlined nav-icon-icon display-none"
+              >search</span
+            >
+            <span class="material-symbols-outlined nav-icon-icon display-none"
+              >mic</span
+            >
             <span class="material-symbols-outlined nav-icon-icon">upload</span>
             <span class="material-symbols-outlined nav-icon-icon"
-              >notifications</span
-            >
+              >notifications
+              <span class="nav-icon-number">9+</span>
+            </span>
             <figure class="nav-icon-figure">
               <img
                 class="nav-icon-img"
@@ -136,98 +141,223 @@
       <main class="cointainer">
         <section class="vid-grid">
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure viewed">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+              <span class="duration">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  width="12"
+                  aria-hidden="true"
+                  class="icon-music"
+                >
+                  <path
+                    d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"
+                  ></path>
+                </svg>
+                3:13
+              </span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/YBN.avif" />
+              <span class="duration">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  width="12"
+                  aria-hidden="true"
+                  class="icon-music"
+                >
+                  <path
+                    d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"
+                  ></path>
+                </svg>
+                1:48
+              </span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/lyricalLemonade.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    YBN Nahmir - Bounce Out With That (Official Music Video)
+                  </p>
+                  <span class="vid-desc-item">Lyrical Lemonade </span>
+                  <span class="vid-desc-item">168 M </span>
+                  <span class="vid-desc-item">hace 8 a</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure viewed">
+              <img class="vid-img" src="./assets/howmanyusers.webp" />
+              <span class="duration">14:46</span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/arjay.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    I Tested 8 Programming Languages on a $12 Server
+                  </p>
+                  <span class="vid-desc-item">Arjay McCandless </span>
+                  <span class="vid-desc-item">212K </span>
+                  <span class="vid-desc-item">hace 1 d</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/postman.webp" />
+              <span class="duration">4:06</span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/nube.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    COMO USAR POSTMAN CON VISUAL STUDIO CODE
+                  </p>
+                  <span class="vid-desc-item">Nube Colectiva Devs </span>
+                  <span class="vid-desc-item">6K </span>
+                  <span class="vid-desc-item">hace 3 a</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/enculebrao.webp" />
+              <span class="duration">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  width="12"
+                  aria-hidden="true"
+                  class="icon-music"
+                >
+                  <path
+                    d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"
+                  ></path>
+                </svg>
+                2:26
+              </span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/ardilla.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">ENCULEBRAO</p>
+                  <span class="vid-desc-item">Mc Ardilla - Topic</span>
+                  <span class="vid-desc-item">574K</span>
+                  <span class="vid-desc-item">hace 10 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure viewed">
+              <img class="vid-img" src="./assets/21avif.avif" />
+              <span class="duration">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  width="12"
+                  aria-hidden="true"
+                  class="icon-music"
+                >
+                  <path
+                    d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"
+                  ></path>
+                </svg>
+                4:16
+              </span>
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/21_profile.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    21 Savage & Metro Boomin - No Heart (Official Music Video)
+                  </p>
+                  <span class="vid-desc-item">21 Savage </span>
+                  <span class="vid-desc-item">304 M </span>
+                  <span class="vid-desc-item">hace 9 a</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
         </section>
 
-        <section class="shorts-container">
+        <!-- <section class="shorts-container">
           <div class="shorts-icons">
             <div class="flex">
               <span class="material-symbols-outlined">lightstrip</span>
@@ -301,96 +431,135 @@
 
         <section class="vid-grid">
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
+
           <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
+            <figure class="vid-img-figure">
+              <img class="vid-img" src="./assets/compiten.jpg" />
+            </figure>
             <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
+              <div class="vid-owner-data">
+                <figure class="vid-owner-figure">
+                  <img
+                    class="vid-owner-img"
+                    src="./assets/reke.jpg"
+                    alt="Imagen del creador"
+                  />
+                </figure>
+                <div class="vid-owner-desc">
+                  <p class="vid-owner-title">
+                    Mestiza y Neblinna - COMPITEN Ft. Reke [Official Video]
+                  </p>
+                  <span class="vid-desc-item">Reke </span>
+                  <span class="vid-desc-item">299K </span>
+                  <span class="vid-desc-item">hace 1 m</span>
+                </div>
+              </div>
+              <span class="material-symbols-outlined icon-left">more_vert</span>
             </div>
           </div>
-          <div class="vid-item">
-            <img src="#" alt="Miniatura del video" />
-            <div class="vid-item-owner">
-              <figure class="vid-item-figure">
-                <img src="#" alt="Imagen del creador" />
-              </figure>
-              <p class="vid-item-title">TITULO DEL VIDEO</p>
-              <span class="material-symbols-outlined">more_vert</span>
-            </div>
-            <div class="vid-stats">
-              <span class="vid-stats-name">NOMBRE DEL CREADOR</span>
-              <span class="vid-stats-views">VIEWS</span>
-              <span class="vid-stats-ago">TIME</span>
-            </div>
-          </div>
-        </section>
+        </section> -->
       </main>
     </div>
   </body>
